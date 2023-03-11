@@ -122,9 +122,10 @@ select customer_id, count(product_name) as Total_Items, sum(price) as Total_Amou
   Q.9) If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
   
    select customer_id, sum(case
-							    when product_id = 1 then price * 20
-								else price*10
-								end) as Total_Points 
+				 when product_id = 1 then price * 20
+				 else price*10
+				 end) as Total_Points 
+				 
 	from master_table group by customer_id;
   
   #-----------------------Task-10------------------------------------------------------------------------------------------------
