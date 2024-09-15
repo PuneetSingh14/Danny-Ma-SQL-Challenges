@@ -1,4 +1,4 @@
-# Danny-Ma-SQL-Challenges
+  # Danny-Ma-SQL-Challenges
 
 ![Logo](https://github.com/PuneetSingh14/Danny-Ma-SQL-Challenges/blob/main/Danny-Ma-SQL-Challenges%20Logo.png)
 
